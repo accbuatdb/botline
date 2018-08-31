@@ -195,7 +195,7 @@ Cek Vidio Test Monster Panel dibawah yah'
     array (
       0 => 
       array (
-        'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+        'thumbnailImageUrl' => 'https://httpsimage.com/v2/863a7e3f-1dab-4a75-9a85-0fb1c9867eb9.jpe',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'Keyword Support',
         'text' => 'Ketuk opsi untuk memilih keyword',
