@@ -11,30 +11,30 @@ $channelAccessToken = 'R/4T0g/FZRw9F67wwGL9TxB8/jE18eP6QAuosrPtgT8HEFzWOnAciZiwu
 $channelSecret = '8b9f489b60960c43853fb30ea699cf48';//Your Channel Secret
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
-$userId 	= $client->parseEvents()[0]['source']['userId'];
+$userId     = $client->parseEvents()[0]['source']['userId'];
 $replyToken = $client->parseEvents()[0]['replyToken'];
-$timestamp	= $client->parseEvents()[0]['timestamp'];
-$message 	= $client->parseEvents()[0]['message'];
-$messageid 	= $client->parseEvents()[0]['message']['id'];
+$timestamp  = $client->parseEvents()[0]['timestamp'];
+$message    = $client->parseEvents()[0]['message'];
+$messageid  = $client->parseEvents()[0]['message']['id'];
 $profil = $client->profil($userId);
 $pesan_datang = $message['text'];
 
 //pesan bergambar
 function rudr_instagram_api_curl_connect( $api_url ){
-	$connection_c = curl_init(); // initializing
-	curl_setopt( $connection_c, CURLOPT_URL, $api_url ); // API URL to connect
-	curl_setopt( $connection_c, CURLOPT_RETURNTRANSFER, 1 ); // return the result, do not print
-	curl_setopt( $connection_c, CURLOPT_TIMEOUT, 20 );
-	$json_return = curl_exec( $connection_c ); // connect and get json data
-	curl_close( $connection_c ); // close connection
-	return json_decode( $json_return ); // decode and return
+    $connection_c = curl_init(); // initializing
+    curl_setopt( $connection_c, CURLOPT_URL, $api_url ); // API URL to connect
+    curl_setopt( $connection_c, CURLOPT_RETURNTRANSFER, 1 ); // return the result, do not print
+    curl_setopt( $connection_c, CURLOPT_TIMEOUT, 20 );
+    $json_return = curl_exec( $connection_c ); // connect and get json data
+    curl_close( $connection_c ); // close connection
+    return json_decode( $json_return ); // decode and return
 }
 function send($input, $rt){
     $send = array(
         'replyToken' => $rt,
         'messages' => array(
             array(
-                'type' => 'text',					
+                'type' => 'text',                   
                 'text' => $input
             )
         )
@@ -44,13 +44,13 @@ function send($input, $rt){
 
 function jawabs(){
     $list_jwb = array(
-		'Ya',
-		'Tidak',
-		'Bisa jadi',
-		'Mungkin',
-		'Tentu tidak',
-		'Coba tanya lagi'
-		);
+        'Ya',
+        'Tidak',
+        'Bisa jadi',
+        'Mungkin',
+        'Tentu tidak',
+        'Coba tanya lagi'
+        );
     $jaws = array_rand($list_jwb);
     $jawab = $list_jwb[$jaws];
     return($jawab);
@@ -89,16 +89,16 @@ if($message['type']=='text')
 
 if($message['type']=='text')
 {
-	if($pesan_datang=='caption')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array(
-										'type' => 'text',					
-										'text' => '=== Broadcast By MonsterBot ===
+    if($pesan_datang=='caption')
+    {
+        
+        
+        $balas = array(
+                            'replyToken' => $replyToken,                                                        
+                            'messages' => array(
+                                array(
+                                        'type' => 'text',                   
+                                        'text' => '=== Broadcast By MonsterBot ===
       
          ðŸ’ˆMonster Panel MSMMðŸ’ˆ
  
@@ -173,19 +173,19 @@ Bisa langsung Hubungi OA :
 https://line.me/R/ti/p/%40jkj6350h ( fast respown )
 
 Cek Vidio Test Monster Panel dibawah yah'
-									)
-							)
-						);
-				
-	}
-	if($pesan_datang=='key')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
+                                    )
+                            )
+                        );
+                
+    }
+    if($pesan_datang=='key')
+    {
+        
+        
+        $balas = array(
+                            'replyToken' => $replyToken,                                                        
+                            'messages' => array(
+                                array (
   'type' => 'template',
   'altText' => 'this is a carousel template',
   'template' => 
@@ -195,7 +195,7 @@ Cek Vidio Test Monster Panel dibawah yah'
     array (
       0 => 
       array (
-        'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+        'thumbnailImageUrl' => 'https://sclimb-panel.site/logo.JPG',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'Keyword Support',
         'text' => 'Ketuk opsi untuk memilih keyword',
@@ -229,7 +229,7 @@ Cek Vidio Test Monster Panel dibawah yah'
       ),
       1 => 
       array (
-        'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+        'thumbnailImageUrl' => 'https://sclimb-panel.site/logo.JPG',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'Keyword Support',
         'text' => 'Ketuk opsi untuk memilih keyword',
@@ -263,7 +263,7 @@ Cek Vidio Test Monster Panel dibawah yah'
           ),
           2 => 
       array (
-        'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+        'thumbnailImageUrl' => 'https://sclimb-panel.site/logo.JPG',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'Keyword Support',
         'text' => 'Ketuk opsi untuk memilih keyword',
@@ -297,7 +297,7 @@ Cek Vidio Test Monster Panel dibawah yah'
          ),
          3 => 
       array (
-        'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+        'thumbnailImageUrl' => 'https://sclimb-panel.site/logo.JPG',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'Keyword Support',
         'text' => 'Ketuk opsi untuk memilih keyword',
@@ -334,24 +334,24 @@ Cek Vidio Test Monster Panel dibawah yah'
     'imageSize' => 'cover',
   ),
 )
-							)
-						);
-				
-	}
-	if($pesan_datang=='owner')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
+                            )
+                        );
+                
+    }
+    if($pesan_datang=='owner')
+    {
+        
+        
+        $balas = array(
+                            'replyToken' => $replyToken,                                                        
+                            'messages' => array(
+                                array (
   'type' => 'template',
   'altText' => 'OWNER MonsterPanel',
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+    'thumbnailImageUrl' => 'https://sclimb-panel.site/logo.JPG',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
@@ -375,22 +375,22 @@ Cek Vidio Test Monster Panel dibawah yah'
     ),
   ),
 )
-							)
-						);
-	}
-	if($pesan_datang=='payment')
-	{
-	    
-	    $balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
+                            )
+                        );
+    }
+    if($pesan_datang=='payment')
+    {
+        
+        $balas = array(
+                            'replyToken' => $replyToken,                                                        
+                            'messages' => array(
+                                array (
   'type' => 'template',
   'altText' => 'Keyword Monster Panel Support',
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+    'thumbnailImageUrl' => 'https://sclimb-panel.site/logo.JPG',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
@@ -420,23 +420,23 @@ Cek Vidio Test Monster Panel dibawah yah'
     ),
   ),
 )
-							)
-						);
-	    
-	}
-	if($pesan_datang=='event')
-	{
-	    
-	    $balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
+                            )
+                        );
+        
+    }
+    if($pesan_datang=='event')
+    {
+        
+        $balas = array(
+                            'replyToken' => $replyToken,                                                        
+                            'messages' => array(
+                                array (
   'type' => 'template',
   'altText' => 'Event Monster Panel',
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+    'thumbnailImageUrl' => 'https://sclimb-panel.site/logo.JPG',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
@@ -466,24 +466,24 @@ Cek Vidio Test Monster Panel dibawah yah'
     ),
   ),
 )
-							)
-						);
-	    
-	}
-	if($pesan_datang=='login')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
+                            )
+                        );
+        
+    }
+    if($pesan_datang=='login')
+    {
+        
+        
+        $balas = array(
+                            'replyToken' => $replyToken,                                                        
+                            'messages' => array(
+                                array (
   'type' => 'template',
   'altText' => 'Link Login',
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+    'thumbnailImageUrl' => 'https://sclimb-panel.site/logo.JPG',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
@@ -506,9 +506,9 @@ Cek Vidio Test Monster Panel dibawah yah'
     ),
   ),
 )
-							)
-						);
-	}
+                            )
+                        );
+    }
 
 }
  
