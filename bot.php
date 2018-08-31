@@ -195,7 +195,7 @@ Cek Vidio Test Monster Panel dibawah yah'
     array (
       0 => 
       array (
-        'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.JPG',
+        'thumbnailImageUrl' => '',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'Keyword Support',
         'text' => 'Ketuk opsi untuk memilih keyword',
