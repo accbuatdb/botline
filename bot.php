@@ -7,34 +7,34 @@ copyright @ medantechno.com
 
 require_once('./line_class.php');
 
-$channelAccessToken = ''; //Your Channel Access Token
-$channelSecret = '';//Your Channel Secret
+$channelAccessToken = '4sqTj9fUkQLzAd1JZwOd4QLmCUlNWZryfnQzRninP6CikuccGbi4cZSlvGjVyjP7imFIVKk0v3QaxyhQabcL/wqq66aXqotEsiXUyt38sssIZ120F/S1dZKgiXZ/+Ax2XU8z0l5qK9wmVkkqNJciIQdB04t89/1O/w1cDnyilFU='; //Your Channel Access Token
+$channelSecret = '8b9f489b60960c43853fb30ea699cf48';//Your Channel Secret
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
-$userId 	= $client->parseEvents()[0]['source']['userId'];
+$userId     = $client->parseEvents()[0]['source']['userId'];
 $replyToken = $client->parseEvents()[0]['replyToken'];
-$timestamp	= $client->parseEvents()[0]['timestamp'];
-$message 	= $client->parseEvents()[0]['message'];
-$messageid 	= $client->parseEvents()[0]['message']['id'];
+$timestamp  = $client->parseEvents()[0]['timestamp'];
+$message    = $client->parseEvents()[0]['message'];
+$messageid  = $client->parseEvents()[0]['message']['id'];
 $profil = $client->profil($userId);
 $pesan_datang = $message['text'];
 
 //pesan bergambar
 function rudr_instagram_api_curl_connect( $api_url ){
-	$connection_c = curl_init(); // initializing
-	curl_setopt( $connection_c, CURLOPT_URL, $api_url ); // API URL to connect
-	curl_setopt( $connection_c, CURLOPT_RETURNTRANSFER, 1 ); // return the result, do not print
-	curl_setopt( $connection_c, CURLOPT_TIMEOUT, 20 );
-	$json_return = curl_exec( $connection_c ); // connect and get json data
-	curl_close( $connection_c ); // close connection
-	return json_decode( $json_return ); // decode and return
+    $connection_c = curl_init(); // initializing
+    curl_setopt( $connection_c, CURLOPT_URL, $api_url ); // API URL to connect
+    curl_setopt( $connection_c, CURLOPT_RETURNTRANSFER, 1 ); // return the result, do not print
+    curl_setopt( $connection_c, CURLOPT_TIMEOUT, 20 );
+    $json_return = curl_exec( $connection_c ); // connect and get json data
+    curl_close( $connection_c ); // close connection
+    return json_decode( $json_return ); // decode and return
 }
 function send($input, $rt){
     $send = array(
         'replyToken' => $rt,
         'messages' => array(
             array(
-                'type' => 'text',					
+                'type' => 'text',                   
                 'text' => $input
             )
         )
@@ -44,13 +44,13 @@ function send($input, $rt){
 
 function jawabs(){
     $list_jwb = array(
-		'Ya',
-		'Tidak',
-		'Bisa jadi',
-		'Mungkin',
-		'Tentu tidak',
-		'Coba tanya lagi'
-		);
+        'Ya',
+        'Tidak',
+        'Bisa jadi',
+        'Mungkin',
+        'Tentu tidak',
+        'Coba tanya lagi'
+        );
     $jaws = array_rand($list_jwb);
     $jawab = $list_jwb[$jaws];
     return($jawab);
@@ -89,103 +89,29 @@ if($message['type']=='text')
 
 if($message['type']=='text')
 {
-	if($pesan_datang=='caption')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array(
-										'type' => 'text',					
-										'text' => '=== Broadcast By MonsterBot ===
-      
-         💈Monster Panel MSMM💈
- 
-💈 Monster Panel :
-
-• Panel 3in1 MSMM [183 Full Clean]
-• Like Unlimited 10 Server
-• Software API Premium 
-
-          🌐 Fitur Monster Panel 🌐
-
-• 10 Server Like Unlimited 
-   Sumbit 10 link langsung dalam
-   Satu web.
-• Unlimited Comment Instagram Real 
-  Indo
-• 10 Server Software API Wordwide
-   [ All Suplort Foll tertarget ]
-• 6 Server Software API Real Indo
-• View Snap Gram
-• 1 orang 1 akun
-• Request Username Password
-• Masuk Group FH [ PUSAT ]
-• Semua penggunaan fitur tanpa 
-  Saldo , Coin,  Point
-• Server Web Cepat
-• All member bisa add member
-
-💈 Keterangan : 
-
-• Unlimited Like hanya memerlukan
-  Url Link photo
-• Unlimited Comment Instagram
-  Hanya memerlukan Url Link photo
-• Penambahan Foll tidak 
-  Memerlukan password.
-• Tidak menambah Following
-• Full Tutorial [ VIDEO ]
-• Bisa request fitur ke owner
-• Masuknya Like , Foll , Comment
-   Instant prosses ( langsung masuk ) 
-• Unlimited Like real indo gain
-  900+ 1x sumbit
-• Unlimited Comment Real Indo 
-  gain 200+ dalam 1x sumbit
-• Sumbit Software API berbagai
-  Server dalam 1 web
-
-💈 Fitur Tanpa Jeda :
-
-• Unlimited Like Real Indo
-• Unlimited Comment Real Indo
-
-💈 Harga :
-
-💰 15 Hari = 20.000
-💰 30 Hari = 35.000
-💰 999 Hari = 50.000 [ PROMO ]
-
-Untuk durasi 15,30 dikenakan iuran
-Untuk durasi 999 tak dikenakan iuran
-
-💈 List Test Sumbit :
-
-• Sumbit Comment Real Indo
-• Sumbit Like Indo [ 3in1  MSMM ]
-• Sumbit Like Unlimited Real Indo
-• Sumbit View Snapgram
-
-Bisa langsung Hubungi OA :
-
-https://line.me/R/ti/p/%40jkj6350h ( fast respown )
-
-Cek Vidio Test Monster Panel dibawah yah'
-									)
-							)
-						);
-				
-	}
-	if($pesan_datang=='key')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
+    if($pesan_datang=='caption')
+    {
+        
+        
+        $balas = array(
+                            'replyToken' => $replyToken,                                                        
+                            'messages' => array(
+                                array(
+                                        'type' => 'text',                   
+                                        'text' => ''
+                                    )
+                            )
+                        );
+                
+    }
+    if($pesan_datang=='key')
+    {
+        
+        
+        $balas = array(
+                            'replyToken' => $replyToken,                                                        
+                            'messages' => array(
+                                array (
   'type' => 'template',
   'altText' => 'this is a carousel template',
   'template' => 
@@ -195,7 +121,7 @@ Cek Vidio Test Monster Panel dibawah yah'
     array (
       0 => 
       array (
-        'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+        'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'Keyword Support',
         'text' => 'Ketuk opsi untuk memilih keyword',
@@ -203,7 +129,7 @@ Cek Vidio Test Monster Panel dibawah yah'
         array (
       'type' => 'uri',
       'label' => 'View detail',
-      'uri' => 'http://monsterpanel.xyz',
+      'uri' => 'http://sclimb-panel.site',
     ),
     'actions' => 
     array (
@@ -229,7 +155,7 @@ Cek Vidio Test Monster Panel dibawah yah'
       ),
       1 => 
       array (
-        'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+        'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'Keyword Support',
         'text' => 'Ketuk opsi untuk memilih keyword',
@@ -263,7 +189,7 @@ Cek Vidio Test Monster Panel dibawah yah'
           ),
           2 => 
       array (
-        'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+        'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'Keyword Support',
         'text' => 'Ketuk opsi untuk memilih keyword',
@@ -297,7 +223,7 @@ Cek Vidio Test Monster Panel dibawah yah'
          ),
          3 => 
       array (
-        'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+        'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'Keyword Support',
         'text' => 'Ketuk opsi untuk memilih keyword',
@@ -334,24 +260,24 @@ Cek Vidio Test Monster Panel dibawah yah'
     'imageSize' => 'cover',
   ),
 )
-							)
-						);
-				
-	}
-	if($pesan_datang=='owner')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
+                            )
+                        );
+                
+    }
+    if($pesan_datang=='owner')
+    {
+        
+        
+        $balas = array(
+                            'replyToken' => $replyToken,                                                        
+                            'messages' => array(
+                                array (
   'type' => 'template',
-  'altText' => 'OWNER MonsterPanel',
+  'altText' => 'OWNER Social Climb',
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+    'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
@@ -361,7 +287,7 @@ Cek Vidio Test Monster Panel dibawah yah'
     array (
       'type' => 'uri',
       'label' => 'View detail',
-      'uri' => 'http://monsterpanel.xyz',
+      'uri' => 'http://sclimb-panel.site',
     ),
    
     'actions' => 
@@ -375,22 +301,22 @@ Cek Vidio Test Monster Panel dibawah yah'
     ),
   ),
 )
-							)
-						);
-	}
-	if($pesan_datang=='payment')
-	{
-	    
-	    $balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
+                            )
+                        );
+    }
+    if($pesan_datang=='payment')
+    {
+        
+        $balas = array(
+                            'replyToken' => $replyToken,                                                        
+                            'messages' => array(
+                                array (
   'type' => 'template',
-  'altText' => 'Keyword Monster Panel Support',
+  'altText' => 'Keyword Social Climb Panel Support',
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+    'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
@@ -400,7 +326,7 @@ Cek Vidio Test Monster Panel dibawah yah'
     array (
       'type' => 'uri',
       'label' => 'View detail',
-      'uri' => 'http://monsterpanel.xyz',
+      'uri' => 'http://sclimb-panel.site',
     ),
    
     'actions' => 
@@ -415,28 +341,28 @@ Cek Vidio Test Monster Panel dibawah yah'
       array (
         'type' => 'message',
         'label' => 'TELKOMSEL',
-        'text' => '0822-1787-3617',
+        'text' => 'Layanan Telkomsel Sementara Di NON Aktifkan',
       ),
     ),
   ),
 )
-							)
-						);
-	    
-	}
-	if($pesan_datang=='event')
-	{
-	    
-	    $balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
+                            )
+                        );
+        
+    }
+    if($pesan_datang=='event')
+    {
+        
+        $balas = array(
+                            'replyToken' => $replyToken,                                                        
+                            'messages' => array(
+                                array (
   'type' => 'template',
-  'altText' => 'Event Monster Panel',
+  'altText' => 'Event Social Climb TOP Panel',
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+    'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
@@ -446,7 +372,7 @@ Cek Vidio Test Monster Panel dibawah yah'
     array (
       'type' => 'uri',
       'label' => 'View detail',
-      'uri' => 'http://monsterpanel.xyz',
+      'uri' => 'http://sclimb-panel.site',
     ),
    
     'actions' => 
@@ -466,34 +392,34 @@ Cek Vidio Test Monster Panel dibawah yah'
     ),
   ),
 )
-							)
-						);
-	    
-	}
-	if($pesan_datang=='login')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
+                            )
+                        );
+        
+    }
+    if($pesan_datang=='login')
+    {
+        
+        
+        $balas = array(
+                            'replyToken' => $replyToken,                                                        
+                            'messages' => array(
+                                array (
   'type' => 'template',
   'altText' => 'Link Login',
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://sc-media.xyz/bgbot.JPG',
+    'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
-    'title' => 'Link Login Monster Panel',
-    'text' => 'Ketuk "LOGIN" untuk mengakses semua fitur Monster Panel',
+    'title' => 'Link Login Social Climb Top Panel',
+    'text' => 'Ketuk "LOGIN" untuk mengakses semua fitur Social Climb TOP Panel',
     'defaultAction' => 
     array (
       'type' => 'uri',
       'label' => 'View detail',
-      'uri' => 'http://monsterpanel.xyz',
+      'uri' => 'http://sclimb-panel.site',
     ),
     'actions' => 
     array (
@@ -501,14 +427,14 @@ Cek Vidio Test Monster Panel dibawah yah'
       array (
       'type' => 'uri',
       'label' => 'Login',
-      'uri' => 'http://monsterpanel.xyz',
+      'uri' => 'http://sclimb-panel.site',
       ),
     ),
   ),
 )
-							)
-						);
-	}
+                            )
+                        );
+    }
 
 }
  
