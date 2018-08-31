@@ -121,7 +121,7 @@ if($message['type']=='text')
     array (
       0 => 
       array (
-        'thumbnailImageUrl' => 'https://sclimb-panel.site/logo.JPG',
+        'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'Keyword Support',
         'text' => 'Ketuk opsi untuk memilih keyword',
@@ -155,7 +155,7 @@ if($message['type']=='text')
       ),
       1 => 
       array (
-        'thumbnailImageUrl' => 'https://sclimb-panel.site/logo.JPG',
+        'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'Keyword Support',
         'text' => 'Ketuk opsi untuk memilih keyword',
@@ -189,7 +189,7 @@ if($message['type']=='text')
           ),
           2 => 
       array (
-        'thumbnailImageUrl' => 'https://sclimb-panel.site/logo.JPG',
+        'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'Keyword Support',
         'text' => 'Ketuk opsi untuk memilih keyword',
@@ -223,7 +223,7 @@ if($message['type']=='text')
          ),
          3 => 
       array (
-        'thumbnailImageUrl' => 'https://sclimb-panel.site/logo.JPG',
+        'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'Keyword Support',
         'text' => 'Ketuk opsi untuk memilih keyword',
@@ -277,7 +277,7 @@ if($message['type']=='text')
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://sclimb-panel.site/logo.JPG',
+    'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
@@ -316,7 +316,7 @@ if($message['type']=='text')
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://sclimb-panel.site/logo.JPG',
+    'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
@@ -362,7 +362,7 @@ if($message['type']=='text')
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://sclimb-panel.site/logo.JPG',
+    'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
@@ -409,7 +409,7 @@ if($message['type']=='text')
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://sclimb-panel.site/logo.JPG',
+    'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
