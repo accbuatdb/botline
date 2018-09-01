@@ -178,7 +178,7 @@ Cek Vidio Test Monster Panel dibawah yah'
             );
         
   }
-  if($pesan_datang=='key')
+  if($pesan_datang=='Key')
   {
     
     
@@ -187,7 +187,7 @@ Cek Vidio Test Monster Panel dibawah yah'
               'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'Key Support SClimb.site',
+  'altText' => 'Key Support Social Climb Panel',
   'template' => 
   array (
     'type' => 'carousel',
@@ -211,7 +211,7 @@ Cek Vidio Test Monster Panel dibawah yah'
       array (
         'type' => 'message',
         'label' => 'CEO & FOUNDER',
-        'text' => 'ceo&founder',
+        'text' => '/ceofounder',
       ),
       1 => 
       array (
