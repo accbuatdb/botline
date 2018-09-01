@@ -178,7 +178,7 @@ Cek Vidio Test Monster Panel dibawah yah'
             );
         
   }
-  if($pesan_datang=='Key')
+  if($pesan_datang=='key')
   {
     
     
@@ -187,7 +187,7 @@ Cek Vidio Test Monster Panel dibawah yah'
               'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'Key Support Social Climb Panel',
+  'altText' => 'this is a carousel template',
   'template' => 
   array (
     'type' => 'carousel',
@@ -210,8 +210,8 @@ Cek Vidio Test Monster Panel dibawah yah'
       0 => 
       array (
         'type' => 'message',
-        'label' => 'CEO & FOUNDER',
-        'text' => '/ceofounder',
+        'label' => 'Owner',
+        'text' => 'owner',
       ),
       1 => 
       array (
@@ -245,19 +245,19 @@ Cek Vidio Test Monster Panel dibawah yah'
           array (
             'type' => 'message',
             'label' => 'Invite Member',
-            'text' => '/invitmember',
+            'text' => 'invit member',
           ),
           1 => 
           array (
             'type' => 'message',
             'label' => 'Event',
-            'text' => '/event',
+            'text' => 'event',
           ),
           2 => 
           array (
             'type' => 'message',
             'label' => 'Claim Event',
-            'text' => '/claim',
+            'text' => 'claim',
           ),
          ),
           ),
@@ -279,19 +279,19 @@ Cek Vidio Test Monster Panel dibawah yah'
           array (
             'type' => 'message',
             'label' => 'Harga Saldo',
-            'text' => '/hargasaldo',
+            'text' => 'harga saldo',
           ),
           1 => 
           array (
             'type' => 'message',
             'label' => 'Iuran',
-            'text' => '/iuran',
+            'text' => 'iuran',
           ),
           2 => 
           array (
             'type' => 'message',
             'label' => 'Caption',
-            'text' => '/caption',
+            'text' => 'caption',
          ),
           ),
          ),
@@ -312,20 +312,20 @@ Cek Vidio Test Monster Panel dibawah yah'
           0 => 
           array (
             'type' => 'message',
-            'label' => 'The Rule',
-            'text' => '/rules',
+            'label' => 'Peraturan',
+            'text' => 'peraturan',
           ),
           1 => 
           array (
             'type' => 'message',
             'label' => 'Lupa Password',
-            'text' => '/forgetpass',
+            'text' => 'forget pass',
           ),
           2 => 
           array (
             'type' => 'message',
-            'label' => 'Official Account Center',
-            'text' => '/oacenter',
+            'label' => 'Contact OA',
+            'text' => 'OA',
           ),
          ),
           ),
