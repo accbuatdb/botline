@@ -217,12 +217,12 @@ Cek Vidio Test Monster Panel dibawah yah'
       array (
         'type' => 'message',
         'label' => 'Link Login',
-        'text' => 'login',
+        'text' => '/login',
       ),
       2 => 
       array (
         'type' => 'message',
-        'label' => 'payment',
+        'label' => 'Payment',
         'text' => 'payment',
       ),
         ),
@@ -245,19 +245,19 @@ Cek Vidio Test Monster Panel dibawah yah'
           array (
             'type' => 'message',
             'label' => 'Invite Member',
-            'text' => 'invit member',
+            'text' => '/invmember',
           ),
           1 => 
           array (
             'type' => 'message',
             'label' => 'Event',
-            'text' => 'event',
+            'text' => '/event',
           ),
           2 => 
           array (
             'type' => 'message',
             'label' => 'Claim Event',
-            'text' => 'claim',
+            'text' => '/claim',
           ),
          ),
           ),
@@ -312,20 +312,20 @@ Cek Vidio Test Monster Panel dibawah yah'
           0 => 
           array (
             'type' => 'message',
-            'label' => 'Peraturan',
-            'text' => 'peraturan',
+            'label' => 'The Rules',
+            'text' => '/rules',
           ),
           1 => 
           array (
             'type' => 'message',
             'label' => 'Lupa Password',
-            'text' => 'forget pass',
+            'text' => '/forgetpass',
           ),
           2 => 
           array (
             'type' => 'message',
-            'label' => 'Contact OA',
-            'text' => 'OA',
+            'label' => 'Official Account Center',
+            'text' => '/oacenter',
           ),
          ),
           ),
@@ -347,7 +347,7 @@ Cek Vidio Test Monster Panel dibawah yah'
               'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'OWNER MonsterPanel',
+  'altText' => 'CEO & Founder Social Climb Top Panel',
   'template' => 
   array (
     'type' => 'buttons',
@@ -356,7 +356,7 @@ Cek Vidio Test Monster Panel dibawah yah'
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
     'title' => '@ridwan_sch12',
-    'text' => 'Pesan OWNER : Upload Testi yak :V',
+    'text' => 'CEO & Founder Social CLimb Top Panel... Kontak email untuk kerja sama dengan kami',
     'defaultAction' => 
     array (
       'type' => 'uri',
@@ -369,8 +369,8 @@ Cek Vidio Test Monster Panel dibawah yah'
       0 => 
       array (
         'type' => 'message',
-        'label' => 'payment',
-        'text' => 'payment',
+        'label' => 'Contact Business',
+        'text' => '/contact',
       ),
     ),
   ),
