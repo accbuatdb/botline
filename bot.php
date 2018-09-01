@@ -210,8 +210,8 @@ Cek Vidio Test Monster Panel dibawah yah'
       0 => 
       array (
         'type' => 'message',
-        'label' => 'Owner',
-        'text' => 'owner',
+        'label' => 'CEO & Founder',
+        'text' => '/ceosclimb',
       ),
       1 => 
       array (
