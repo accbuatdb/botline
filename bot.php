@@ -187,7 +187,7 @@ Cek Vidio Test Monster Panel dibawah yah'
               'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'this is a carousel template',
+  'altText' => 'Key Support SClimb.site',
   'template' => 
   array (
     'type' => 'carousel',
@@ -210,8 +210,8 @@ Cek Vidio Test Monster Panel dibawah yah'
       0 => 
       array (
         'type' => 'message',
-        'label' => 'Owner',
-        'text' => 'owner',
+        'label' => 'CEO & FOUNDER',
+        'text' => 'ceo&founder',
       ),
       1 => 
       array (
@@ -245,19 +245,19 @@ Cek Vidio Test Monster Panel dibawah yah'
           array (
             'type' => 'message',
             'label' => 'Invite Member',
-            'text' => 'invit member',
+            'text' => '/invitmember',
           ),
           1 => 
           array (
             'type' => 'message',
             'label' => 'Event',
-            'text' => 'event',
+            'text' => '/event',
           ),
           2 => 
           array (
             'type' => 'message',
             'label' => 'Claim Event',
-            'text' => 'claim',
+            'text' => '/claim',
           ),
          ),
           ),
@@ -279,19 +279,19 @@ Cek Vidio Test Monster Panel dibawah yah'
           array (
             'type' => 'message',
             'label' => 'Harga Saldo',
-            'text' => 'harga saldo',
+            'text' => '/hargasaldo',
           ),
           1 => 
           array (
             'type' => 'message',
             'label' => 'Iuran',
-            'text' => 'iuran',
+            'text' => '/iuran',
           ),
           2 => 
           array (
             'type' => 'message',
             'label' => 'Caption',
-            'text' => 'caption',
+            'text' => '/caption',
          ),
           ),
          ),
@@ -312,20 +312,20 @@ Cek Vidio Test Monster Panel dibawah yah'
           0 => 
           array (
             'type' => 'message',
-            'label' => 'Peraturan',
-            'text' => 'peraturan',
+            'label' => 'The Rule',
+            'text' => '/rules',
           ),
           1 => 
           array (
             'type' => 'message',
             'label' => 'Lupa Password',
-            'text' => 'forget pass',
+            'text' => '/forgetpass',
           ),
           2 => 
           array (
             'type' => 'message',
-            'label' => 'Contact OA',
-            'text' => 'OA',
+            'label' => 'Official Account Center',
+            'text' => '/oacenter',
           ),
          ),
           ),
@@ -355,7 +355,7 @@ Cek Vidio Test Monster Panel dibawah yah'
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
-    'title' => 'Bayu Chandra',
+    'title' => '@ridwan_sch12',
     'text' => 'Pesan OWNER : Upload Testi yak :V',
     'defaultAction' => 
     array (
@@ -395,7 +395,7 @@ Cek Vidio Test Monster Panel dibawah yah'
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
     'title' => 'List Payment',
-    'text' => 'Untuk Saldo & Setor gunakan payment ini',
+    'text' => 'Untuk Saldo & Penyetoran gunakan payment di bawah ini',
     'defaultAction' => 
     array (
       'type' => 'uri',
@@ -414,8 +414,8 @@ Cek Vidio Test Monster Panel dibawah yah'
        1 => 
       array (
         'type' => 'message',
-        'label' => 'TELKOMSEL',
-        'text' => '0822-1787-3617',
+        'label' => 'TELKOMSEL (NONAKTIF)',
+        'text' => 'Layanan Sementara Dimatikan',
       ),
     ),
   ),
@@ -454,14 +454,14 @@ Cek Vidio Test Monster Panel dibawah yah'
       0 => 
       array (
         'type' => 'message',
-        'label' => 'Member Harian',
-        'text' => 'member harian',
+        'label' => 'Member Event',
+        'text' => '/memevent',
       ),
        1 => 
       array (
         'type' => 'message',
-        'label' => 'Member Permanent',
-        'text' => 'member permanent',
+        'label' => 'Reseller Event',
+        'text' => '/ressevent',
       ),
     ),
   ),
