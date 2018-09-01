@@ -217,12 +217,12 @@ Cek Vidio Test Monster Panel dibawah yah'
       array (
         'type' => 'message',
         'label' => 'Link Login',
-        'text' => '/login',
+        'text' => 'login',
       ),
       2 => 
       array (
         'type' => 'message',
-        'label' => 'Payment',
+        'label' => 'payment',
         'text' => 'payment',
       ),
         ),
@@ -245,19 +245,19 @@ Cek Vidio Test Monster Panel dibawah yah'
           array (
             'type' => 'message',
             'label' => 'Invite Member',
-            'text' => '/invmember',
+            'text' => 'invit member',
           ),
           1 => 
           array (
             'type' => 'message',
             'label' => 'Event',
-            'text' => '/event',
+            'text' => 'event',
           ),
           2 => 
           array (
             'type' => 'message',
             'label' => 'Claim Event',
-            'text' => '/claim',
+            'text' => 'claim',
           ),
          ),
           ),
@@ -312,20 +312,20 @@ Cek Vidio Test Monster Panel dibawah yah'
           0 => 
           array (
             'type' => 'message',
-            'label' => 'The Rules',
-            'text' => '/rules',
+            'label' => 'Peraturan',
+            'text' => 'peraturan',
           ),
           1 => 
           array (
             'type' => 'message',
             'label' => 'Lupa Password',
-            'text' => '/forgetpass',
+            'text' => 'forget pass',
           ),
           2 => 
           array (
             'type' => 'message',
-            'label' => 'Official Account Center',
-            'text' => '/oacenter',
+            'label' => 'Contact OA',
+            'text' => 'OA',
           ),
          ),
           ),
