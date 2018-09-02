@@ -113,7 +113,7 @@ if($message['type']=='text')
               'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'this is a carousel template',
+  'altText' => 'Key Support Social Climb',
   'template' => 
   array (
     'type' => 'carousel',
