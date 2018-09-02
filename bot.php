@@ -312,14 +312,14 @@ Cek Vidio Test Monster Panel dibawah yah'
           0 => 
           array (
             'type' => 'message',
-            'label' => 'Peraturan',
-            'text' => 'peraturan',
+            'label' => 'The Rule',
+            'text' => '/rules',
           ),
           1 => 
           array (
             'type' => 'message',
             'label' => 'Lupa Password',
-            'text' => 'forget pass',
+            'text' => '/forgetpass',
           ),
           2 => 
           array (
