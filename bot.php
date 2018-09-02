@@ -396,25 +396,25 @@ if($message['type']=='text')
             );
       
   }
-  if($pesan_datang=='/login')
+if($pesan_datang=='/login')
   {
     
     
     $balas = array(
-                            'replyToken' => $replyToken,                                                        
-                            'messages' => array(
-                                array (
+              'replyToken' => $replyToken,                            
+              'messages' => array(
+                array (
   'type' => 'template',
   'altText' => 'Link Login',
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
+    'thumbnailImageUrl' => 'https://httpsimage.com/v2/863a7e3f-1dab-4a75-9a85-0fb1c9867eb9.jpe',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
-    'title' => 'Link Login Social Climb Top Panel',
-    'text' => 'Ketuk "LOGIN" untuk mengakses semua fitur Social Climb TOP Panel',
+    'title' => 'Link Login Monster Panel',
+    'text' => 'Ketuk "LOGIN" untuk mengakses semua fitur Monster Panel',
     'defaultAction' => 
     array (
       'type' => 'uri',
