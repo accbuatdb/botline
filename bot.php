@@ -335,7 +335,7 @@ if($message['type']=='text')
       array (
         'type' => 'message',
         'label' => 'XL',
-        'text' => '0878-2361-1283',
+        'text' => '0877-2289-0150',
       ),
        1 => 
       array (
