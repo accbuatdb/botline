@@ -338,7 +338,7 @@ Cek Vidio Test Monster Panel dibawah yah'
             );
         
   }
-  if($pesan_datang=='owner')
+  if($pesan_datang=='/ceosclimb')
   {
     
     
@@ -378,7 +378,7 @@ Cek Vidio Test Monster Panel dibawah yah'
               )
             );
   }
-  if($pesan_datang=='payment')
+  if($pesan_datang=='/payment')
   {
       
       $balas = array(
@@ -424,7 +424,7 @@ Cek Vidio Test Monster Panel dibawah yah'
             );
       
   }
-  if($pesan_datang=='event')
+  if($pesan_datang=='/event')
   {
       
       $balas = array(
@@ -470,7 +470,7 @@ Cek Vidio Test Monster Panel dibawah yah'
             );
       
   }
-  if($pesan_datang=='login')
+  if($pesan_datang=='/login')
   {
     
     
@@ -487,8 +487,8 @@ Cek Vidio Test Monster Panel dibawah yah'
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
-    'title' => 'Link Login Monster Panel',
-    'text' => 'Ketuk "LOGIN" untuk mengakses semua fitur Monster Panel',
+    'title' => 'Link Login Social Climb Top Panel',
+    'text' => 'Ketuk "LOGIN" untuk mengakses semua fitur Social Climb Top Panel',
     'defaultAction' => 
     array (
       'type' => 'uri',
