@@ -217,13 +217,13 @@ Cek Vidio Test Monster Panel dibawah yah'
       array (
         'type' => 'message',
         'label' => 'Link Login',
-        'text' => 'login',
+        'text' => '/login',
       ),
       2 => 
       array (
         'type' => 'message',
         'label' => 'payment',
-        'text' => 'payment',
+        'text' => '/payment',
       ),
         ),
       ),
@@ -245,19 +245,19 @@ Cek Vidio Test Monster Panel dibawah yah'
           array (
             'type' => 'message',
             'label' => 'Invite Member',
-            'text' => 'invit member',
+            'text' => '/invmember',
           ),
           1 => 
           array (
             'type' => 'message',
             'label' => 'Event',
-            'text' => 'event',
+            'text' => '/event',
           ),
           2 => 
           array (
             'type' => 'message',
             'label' => 'Claim Event',
-            'text' => 'claim',
+            'text' => '/claim',
           ),
          ),
           ),
