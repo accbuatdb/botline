@@ -98,81 +98,7 @@ if($message['type']=='text')
               'messages' => array(
                 array(
                     'type' => 'text',         
-                    'text' => '=== Broadcast By MonsterBot ===
-      
-         💈Monster Panel MSMM💈
- 
-💈 Monster Panel :
-
-• Panel 3in1 MSMM [183 Full Clean]
-• Like Unlimited 10 Server
-• Software API Premium 
-
-          🌐 Fitur Monster Panel 🌐
-
-• 10 Server Like Unlimited 
-   Sumbit 10 link langsung dalam
-   Satu web.
-• Unlimited Comment Instagram Real 
-  Indo
-• 10 Server Software API Wordwide
-   [ All Suplort Foll tertarget ]
-• 6 Server Software API Real Indo
-• View Snap Gram
-• 1 orang 1 akun
-• Request Username Password
-• Masuk Group FH [ PUSAT ]
-• Semua penggunaan fitur tanpa 
-  Saldo , Coin,  Point
-• Server Web Cepat
-• All member bisa add member
-
-💈 Keterangan : 
-
-• Unlimited Like hanya memerlukan
-  Url Link photo
-• Unlimited Comment Instagram
-  Hanya memerlukan Url Link photo
-• Penambahan Foll tidak 
-  Memerlukan password.
-• Tidak menambah Following
-• Full Tutorial [ VIDEO ]
-• Bisa request fitur ke owner
-• Masuknya Like , Foll , Comment
-   Instant prosses ( langsung masuk ) 
-• Unlimited Like real indo gain
-  900+ 1x sumbit
-• Unlimited Comment Real Indo 
-  gain 200+ dalam 1x sumbit
-• Sumbit Software API berbagai
-  Server dalam 1 web
-
-💈 Fitur Tanpa Jeda :
-
-• Unlimited Like Real Indo
-• Unlimited Comment Real Indo
-
-💈 Harga :
-
-💰 15 Hari = 20.000
-💰 30 Hari = 35.000
-💰 999 Hari = 50.000 [ PROMO ]
-
-Untuk durasi 15,30 dikenakan iuran
-Untuk durasi 999 tak dikenakan iuran
-
-💈 List Test Sumbit :
-
-• Sumbit Comment Real Indo
-• Sumbit Like Indo [ 3in1  MSMM ]
-• Sumbit Like Unlimited Real Indo
-• Sumbit View Snapgram
-
-Bisa langsung Hubungi OA :
-
-https://line.me/R/ti/p/%40jkj6350h ( fast respown )
-
-Cek Vidio Test Monster Panel dibawah yah'
+                    'text' => ''
                   )
               )
             );
@@ -475,20 +401,20 @@ Cek Vidio Test Monster Panel dibawah yah'
     
     
     $balas = array(
-              'replyToken' => $replyToken,                            
-              'messages' => array(
-                array (
+                            'replyToken' => $replyToken,                                                        
+                            'messages' => array(
+                                array (
   'type' => 'template',
   'altText' => 'Link Login',
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://httpsimage.com/v2/863a7e3f-1dab-4a75-9a85-0fb1c9867eb9.jpe',
+    'thumbnailImageUrl' => 'http://sclimb-panel.site/logo.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
     'title' => 'Link Login Social Climb Top Panel',
-    'text' => 'Ketuk "LOGIN" untuk mengakses semua fitur Social Climb Top Panel',
+    'text' => 'Ketuk "LOGIN" untuk mengakses semua fitur Social Climb TOP Panel',
     'defaultAction' => 
     array (
       'type' => 'uri',
