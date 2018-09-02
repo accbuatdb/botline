@@ -279,7 +279,7 @@ Cek Vidio Test Monster Panel dibawah yah'
           array (
             'type' => 'message',
             'label' => 'Harga Saldo',
-            'text' => '/price',
+            'text' => '/pricedo',
           ),
           1 => 
           array (
@@ -312,20 +312,20 @@ Cek Vidio Test Monster Panel dibawah yah'
           0 => 
           array (
             'type' => 'message',
-            'label' => 'The Rule',
-            'text' => '/rules',
+            'label' => 'Peraturan',
+            'text' => 'peraturan',
           ),
           1 => 
           array (
             'type' => 'message',
             'label' => 'Lupa Password',
-            'text' => '/forgotpass',
+            'text' => 'forget pass',
           ),
           2 => 
           array (
             'type' => 'message',
-            'label' => 'Official Account Center',
-            'text' => '/oacenter',
+            'label' => 'Contact OA',
+            'text' => 'OA',
           ),
          ),
           ),
