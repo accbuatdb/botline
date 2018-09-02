@@ -273,7 +273,7 @@ if($message['type']=='text')
               'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'CEO & Founder',
+  'altText' => 'OWNER Social Climb Panel',
   'template' => 
   array (
     'type' => 'buttons',
@@ -282,7 +282,7 @@ if($message['type']=='text')
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
     'title' => '@ridwan_sch12',
-    'text' => 'CEO & Founder Social Climb Top Panel , Untuk Patner Bisnis Bisa Hubungi',
+    'text' => 'CEO & Founder Social Climb Top Panel',
     'defaultAction' => 
     array (
       'type' => 'uri',
