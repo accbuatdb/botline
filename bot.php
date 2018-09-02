@@ -356,7 +356,7 @@ Cek Vidio Test Monster Panel dibawah yah'
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
     'title' => '@ridwan_sch12',
-    'text' => 'Pesan OWNER : Upload Testi yak :V',
+    'text' => 'CEO & Founder Social Climb Top Panel',
     'defaultAction' => 
     array (
       'type' => 'uri',
@@ -369,8 +369,8 @@ Cek Vidio Test Monster Panel dibawah yah'
       0 => 
       array (
         'type' => 'message',
-        'label' => 'payment',
-        'text' => 'payment',
+        'label' => 'Contact Email',
+        'text' => '/businessemail',
       ),
     ),
   ),
