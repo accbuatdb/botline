@@ -324,8 +324,8 @@ Cek Vidio Test Monster Panel dibawah yah'
           2 => 
           array (
             'type' => 'message',
-            'label' => 'Contact OA',
-            'text' => 'OA',
+            'label' => 'Official Account Center',
+            'text' => '/oacenter',
           ),
          ),
           ),
