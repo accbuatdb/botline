@@ -281,8 +281,8 @@ if($message['type']=='text')
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
-    'title' => '@ridwan_sch12',
-    'text' => 'CEO & Founder Social Climb Top Panel',
+    'title' => 'CEO : @ridwan_sch12',
+    'text' => 'Untuk Patner Bisnis Hubungi Email Di Bawah',
     'defaultAction' => 
     array (
       'type' => 'uri',
