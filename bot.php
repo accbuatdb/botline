@@ -413,8 +413,8 @@ if($pesan_datang=='/login')
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
-    'title' => 'Link Login Monster Panel',
-    'text' => 'Ketuk "LOGIN" untuk mengakses semua fitur Monster Panel',
+    'title' => 'Link Login SClimb Panel',
+    'text' => 'Ketuk "LOGIN" untuk mengakses semua fitur Social Climb Panel',
     'defaultAction' => 
     array (
       'type' => 'uri',
