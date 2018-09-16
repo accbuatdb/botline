@@ -89,7 +89,7 @@ if($message['type']=='text')
 
 if($message['type']=='text')
 {
-  if($pesan_datang=='caption')
+  if($pesan_datang=='/claim')
   {
     
     
@@ -98,7 +98,71 @@ if($message['type']=='text')
               'messages' => array(
                 array(
                     'type' => 'text',         
-                    'text' => ''
+                    'text' => '🚨 Event Claim 🚨
+
+📱 Hubungi Official Account Center 
+📨 https://line.me/R/ti/p/%40jkj6350h
+
+NB : Event Durasi Member Hanya Bisa Di Claim Saat Hari Tersebut'
+                  )
+              )
+            );
+        
+  }
+
+if($message['type']=='text')
+{
+  if($pesan_datang=='/memevent')
+  {
+    
+    
+    $balas = array(
+              'replyToken' => $replyToken,                            
+              'messages' => array(
+                array(
+                    'type' => 'text',         
+                    'text' => '🚨 Member Event 🚨
+
+Event Durasi :
+
+⏩ Invite 1 member : 1  Hari
+⏩ Invite 5 member : 7  Hari
+⏩ Invite 10 member : 15 Hari
+
+Event  UP Resseler :
+
+⏩ Mendaftarkan member dengan  total Pembelian 100.000  ( penghitungan tidak di reset )
+
+Setiap Pukul 00.00 penghitungan invite member di reset ( Claim Event Saat Hari Tersebut ) '
+                  )
+              )
+            );
+        
+  }
+
+if($message['type']=='text')
+{
+  if($pesan_datang=='/invmember')
+  {
+    
+    
+    $balas = array(
+              'replyToken' => $replyToken,                            
+              'messages' => array(
+                array(
+                    'type' => 'text',         
+                    'text' => '🚨 Invite Member 🚨
+
+⏩ Member 1 Hari = 3.000,-
+⏩ Member 3 Hari = 7.000,-
+⏩ Member 7 Hari = 12.000,-
+⏩ Member 14 Hari = 20.000,-
+⏩ Member 30 Hari = 30.000,-
+
+Setelah Membayar Biaya Pendaftaran Member Buat Album di Note dengan format
+
+Member // namauser
+Contoh : Member // adminsclimb'
                   )
               )
             );
